@@ -1,0 +1,75 @@
+.rounded {
+  border-radius: 100px !important;
+}
+a {
+  text-decoration: none !important;
+}
+
+.text-indigo { color: var(--indigo) }
+.text-orange { color: var(--orange) }
+
+#left-panel {
+  height: 100vh;
+  position: relative;
+}
+
+#left-panel .container {
+  position: fixed;
+}
+.sidenav {
+  list-style: none;
+}
+.sidenav .sidenav-item .sidenav-link {
+  margin-top: 25px;
+  margin-left: -39px;
+  display: block;
+  /* font-size: 15px; */
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--secondary);
+  font-weight: 400;
+  font-size: 14px;
+}
+.sidenav .sidenav-item .sidenav-link.active {
+  font-weight: 650;
+  color: var(--primary);
+}
+.sidenav .sidenav-item .sidenav-link:hover {
+  font-weight: 650;
+  color: var(--primary);
+}
+
+
+.tab-container {
+  position: relative;
+  list-style: none;
+  margin-left: -40px;
+}
+.tab-container .tab-item {
+  display: inline-block;
+}
+.tab-container .tab-item a {
+  color: var(--secondary);
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 8px 25px;
+}
+
+.tab-container .tab-item a.active {
+  color: var(--primary);
+  border-bottom: 1px solid var(--primary);
+}
+.tab-container .tab-item a:hover {
+  color: var(--primary);
+  border-bottom: 1px solid var(--primary);
+}
+
+.list-item-container {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.list-item-toolbox {
+  padding-right: 15px;
+  border-right: 1px solid #ddd;
+}
